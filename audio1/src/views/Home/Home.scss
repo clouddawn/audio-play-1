@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.chenjingImg {
+  width: 300px;
+  height: 300px;
+  margin-top: 10vh;
+  border-radius: 50%;
+  overflow: hidden;
+  filter: grayscale(100%);
+  animation: revolve linear infinite 10s;
+}
+.chenjingImg2 {
+  width: 300px;
+  height: 300px;
+  margin-top: 10vh;
+  border-radius: 50%;
+  overflow: hidden;
+  filter: grayscale(100%);
+}
+@keyframes revolve {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
